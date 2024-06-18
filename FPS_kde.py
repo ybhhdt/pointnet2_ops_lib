@@ -68,6 +68,6 @@ if __name__ == '__main__':
     import torch
     os.environ["CUDA_VISIBLE_DEVICES"] = '0'
     input = torch.randn((2,2048,3))
-    new_xyz = fps(input, npoint=16)
-    xyz_density = kernel_density_estimation_ball(xyz, sigma=0.1, sigma=0.1)
+    new_xyz = fps(input, npoint=512)
+    xyz_density = kernel_density_estimation_ball(input, radius=0.1, sigma=0.1)
   
