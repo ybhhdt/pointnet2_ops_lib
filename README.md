@@ -5,11 +5,11 @@ Added a feature **'pts_cnt'** to record the number of neighboring points within 
 
 # Usage
 ## Requirements
-PyTorch >= 1.7.0
-python >= 3.7
-CUDA >= 9.0
-GCC >= 4.9
-torchvision
+PyTorch >= 1.7.0<br>
+python >= 3.7<br>
+CUDA >= 9.0<br>
+GCC >= 4.9<br>
+torchvision<br>
 
     cd pointnet2_ops_lib/
     python setup.py install
